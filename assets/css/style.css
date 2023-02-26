@@ -98,12 +98,12 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
-#header .social-links {
+footer .social-links {
   margin-top: 40px;
   display: flex;
 }
 
-#header .social-links a {
+footer .social-links a {
   font-size: 16px;
   display: flex;
   justify-content: center;
@@ -117,15 +117,15 @@ h1, h2, h3, h4, h5, h6 {
   height: 40px;
 }
 
-#header .social-links .twitter:hover {
+footer .social-links .twitter:hover {
   background: #50a2f2;
 }
 
-#header .social-links .facebook:hover {
+footer .social-links .facebook:hover {
   background: #4866aa;
 }
 
-#header .social-links .instagram:hover {
+footer .social-links .instagram:hover {
   background: #ca3183;
 }
 
@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 20px;
     line-height: 30px;
   }
-  #header .social-links {
+  #footer .social-links {
     margin-top: 15px;
   }
   #header .container {
@@ -160,10 +160,11 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   list-style: none;
+  flex-wrap: wrap;
 }
 
 .nav-menu li + li {
-  margin-left: 30px;
+  margin-left: 19px;
 }
 
 .nav-menu a {
@@ -194,7 +195,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #fff;
+  color: #000;
   text-decoration: none;
 }
 
@@ -215,7 +216,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #fff;
+  color: #000000;
 }
 
 .mobile-nav {
@@ -1261,4 +1262,10 @@ section .container {
     background: #5fa15f;
     font-size: 34px;
   }
+}
+
+
+.social-footer{
+  display: grid;
+  justify-content: center;
 }
