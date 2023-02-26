@@ -98,12 +98,12 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
-footer .social-links {
+#header .social-links {
   margin-top: 40px;
   display: flex;
 }
 
-footer .social-links a {
+#header .social-links a {
   font-size: 16px;
   display: flex;
   justify-content: center;
@@ -117,15 +117,15 @@ footer .social-links a {
   height: 40px;
 }
 
-footer .social-links .twitter:hover {
+#header .social-links .twitter:hover {
   background: #50a2f2;
 }
 
-footer .social-links .facebook:hover {
+#header .social-links .facebook:hover {
   background: #4866aa;
 }
 
-footer .social-links .instagram:hover {
+#header .social-links .instagram:hover {
   background: #ca3183;
 }
 
@@ -137,8 +137,8 @@ footer .social-links .instagram:hover {
     font-size: 20px;
     line-height: 30px;
   }
-  #footer .social-links {
-    margin-top: 15px;
+  #header .social-links {
+    margin-top: 127px;
   }
   #header .container {
     display: flex;
